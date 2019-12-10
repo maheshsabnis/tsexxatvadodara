@@ -1,0 +1,15 @@
+{
+  "name": "tsapps",
+  "version": "1.0.0",
+  "description": "TypeScript Programming\r 1. Check for Prerequisites\r    1. Node.js, https://www.nodejs.org\r       1. node command\r          1. Node.js runtime command to execute the application\r       2. npm command\r          1. Used to install all fromnt-end dependencies\r          2. The npm install -g <PACKAGE-NAME>\r             1. Install package for current user on Mchine Scope\r          3. The npm install --save-dev <PACKAGE-NAME>\r             1. Install package for current application\r          4. The package.json file to define all runtime and dev dependencies for the application\r             1. npm init -y, command will create package.json with defaults\r             2. npm init, command will provide Command-Line Wizard to create package.json\r          5. package.josn sections\r             1. 'script', object that contains commands to run/build/test the applicaiton\r             2. 'dependencies'\r                1. section that contains list of all runtime packages\r             3. 'devDependencies'\r                1. seciotn that contains dev time packages\r    2. Visual Studio Code (VSCode), https://code.visualstudio.com\r 2.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}
